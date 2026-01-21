@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>To-Do List (Vanilla JS)</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+  <div class="container">
+    <div class="card">
+      <h1>To-Do List</h1>
+      <p>Add tasks, mark them as done, and keep them saved in your browser using localStorage.</p>
+
+      <div class="row">
+        <input id="taskInput" type="text" placeholder="Add a new task..." autocomplete="off" />
+        <button id="addBtn" type="button">Add</button>
+        <button id="clearBtn" type="button">Clear completed</button>
+      </div>
+
+      <div class="hr"></div>
+
+      <ul id="taskList" class="list"></ul>
+
+      <small id="stats"></small>
+    </div>
+  </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
